@@ -1,0 +1,33 @@
+package server;
+
+public enum DAVE {
+    SERVER_ALIVE(100),
+    LOGIN_ATTEMPT(101),
+    LOGIN_FAIL_NO_SUCH_USER(102),
+    LOGIN_FAIL_GENERIC(103),
+    LOGIN_ACCEPT(104),
+    REGISTER_ATTEMPT(105),
+    REGISTER_FAIL_USER_EXISTS(106),
+    REGISTER_FAIL_GENERIC(107),
+    REGISTER_SUCCESS(108),
+    SEND_MESSAGE(109),
+    MESSAGE_STORED(110),
+    MESSAGE_STORE_FAILED(111),
+    REQUEST_MESSAGE_HISTORY(112),
+    SEND_MESSAGE_HISTORY_FAILED(113),
+    SEND_MESSAGE_HISTORY_SUCCESS(114),
+    REQUEST_LOGOFF(115),
+    LOGOFF_ACCEPTED(116),
+    LOGOFF_FAILED(117),
+    SERVER_DEAD(118);
+
+    private int value;
+
+    DAVE(final int value){
+        this.value = value;
+    }
+
+    public int getValue(){
+        return  this.value;
+    }
+}

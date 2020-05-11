@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <config>
+    <dbLocation>C:\DistributedComputingCA\Client_1\db\</dbLocation>
+    <defaultPort>1111</defaultPort>
+    <serverAddress>localhost</serverAddress>
+    <endMessage>.</endMessage>
+    <trustStorePassword>password</trustStorePassword>
+    <downloadHistoryCommand>!history</downloadHistoryCommand>
+    <pathToTrustStore>C:\DistributedComputingCA\Client_1\security\</pathToTrustStore>
+    <trustStoreName>clientTrustStore.jks</trustStoreName>
+ </config>

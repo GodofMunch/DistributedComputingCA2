@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <config>
+    <dbLocation>C:/DistributedComputingCA/Server/database/</dbLocation>
+    <defaultPort>1111</defaultPort>
+    <keyManagerType>SunX509</keyManagerType>
+    <sslContext>TLS</sslContext>
+    <keystoreType>JKS</keystoreType>
+    <pathToKeystore>C:/DistributedComputingCA/Server/security/</pathToKeystore>
+    <keystoreName>serverKeyStore.jks</keystoreName>
+    <keystorePass>password</keystorePass>
+    <certificatePass>password</certificatePass>
+ </config>
